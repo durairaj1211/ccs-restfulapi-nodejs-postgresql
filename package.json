@@ -1,0 +1,32 @@
+{
+  "name": "ccs-restfulapi-nodejs-postgresql",
+  "version": "1.0.0",
+  "description": "Restful api service using nodejs combined express js and postgresql database",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/durairaj1211/ccs-restfulapi-nodejs-postgresql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/durairaj1211/ccs-restfulapi-nodejs-postgresql/issues"
+  },
+  "homepage": "https://github.com/durairaj1211/ccs-restfulapi-nodejs-postgresql#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "joi": "^18.2.3",
+    "pg": "^8.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
